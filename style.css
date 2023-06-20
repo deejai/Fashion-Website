@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #FFC1A1; /* nude */
+}
+
+#logo {
+  color: #FF6F61; /* pink */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li a {
+  margin: 0 10px;
+  color: #595044; /* orange */
+  text-decoration: none;
+}
+
+#search-box input {
+  border-radius: 20px;
+  border: none;
+  padding: 5px 10px;
+}
+
+#auth-buttons button {
+  border-radius: 20px;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  background-color: #FF6F61; /* pink */
+  color: white;
+}
+
+#pitch {
+  background-color: #FFB447; /* orange */
+  color: white;
+  padding: 50px;
+  text-align: left;
+}
+
+#call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+#call-to-action button {
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #FFC1A1; /* nude */
+  color: #FF6F61; /* pink */
+  margin-bottom: 10px;
+}
+
+#call-to-action a {
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #FFC1A1; /* nude */
+  color: #FF6F61; /* pink */
+  text-decoration: none;
+}
+
+#image-feature {
+  float: right;
+}
+
+.bg-pink {
+  background-color: #FF6F61;
+}
+
+.bg-peach {
+  background-color: #FFC1A1;
+}
+
+.bg-orange {
+  background-color: #FFB447;
+}
+
+.bg-beige {
+  background-color: bisque;
+}
+
+.teardrop-topleft {
+  height: 4em;
+  width: 4em;
+  border-top-left-radius: 0em;
+  border-top-right-radius: 5em;
+  border-bottom-right-radius: 5em;
+  border-bottom-left-radius: 5em;
+}
+
+.teardrop-topright {
+  height: 4em;
+  width: 4em;
+  border-top-left-radius: 5em;
+  border-top-right-radius: 0em;
+  border-bottom-right-radius: 5em;
+  border-bottom-left-radius: 5em;
+}
+
+.teardrop-botleft {
+  height: 4em;
+  width: 4em;
+  border-top-left-radius: 5em;
+  border-top-right-radius: 5em;
+  border-bottom-right-radius: 5em;
+  border-bottom-left-radius: 0em;
+}
+
+.teardrop-botright {
+  height: 4em;
+  width: 4em;
+  border-top-left-radius: 5em;
+  border-top-right-radius: 5em;
+  border-bottom-right-radius: 0em;
+  border-bottom-left-radius: 5em;
+}
