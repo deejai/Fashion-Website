@@ -4,6 +4,7 @@
 
 body {
   font-family: Arial, sans-serif;
+  background-color: rgb(225, 126, 117);
 }
 
 header {
@@ -11,7 +12,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #FFC1A1; /* nude */
+  background-color: #ffffff; /* nude */
+  width: 60em;
+  margin: auto;
 }
 
 #logo {
@@ -47,7 +50,7 @@ nav ul li a {
 }
 
 #pitch {
-  background-color: #FFB447; /* orange */
+  background-color: #ffffff;
   color: white;
   padding: 50px;
   text-align: left;
@@ -132,4 +135,20 @@ nav ul li a {
   border-top-right-radius: 5em;
   border-bottom-right-radius: 0em;
   border-bottom-left-radius: 5em;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.content-column {
+  /* flex-grow: 1; */
+  justify-content: space-around;
+  min-width: 30em;
+  max-width: 40em;
+  min-height: 400px;
+  background-color: rgb(250, 250, 250);
 }
